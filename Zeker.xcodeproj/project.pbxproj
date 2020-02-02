@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56E941C523E6FAE5000D6525 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E941C423E6FAE5000D6525 /* Transaction.swift */; };
+		56E941C823E7009D000D6525 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E941C723E7009D000D6525 /* TransactionView.swift */; };
+		56E941CA23E70A86000D6525 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E941C923E70A86000D6525 /* Color.swift */; };
 		56F53CC723E6F8F200C305B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F53CC623E6F8F200C305B6 /* AppDelegate.swift */; };
 		56F53CC923E6F8F200C305B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F53CC823E6F8F200C305B6 /* SceneDelegate.swift */; };
 		56F53CCB23E6F8F200C305B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F53CCA23E6F8F200C305B6 /* ContentView.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56E941C423E6FAE5000D6525 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		56E941C723E7009D000D6525 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		56E941C923E70A86000D6525 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		56F53CC323E6F8F200C305B6 /* Zeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F53CC623E6F8F200C305B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56F53CC823E6F8F200C305B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56E941C323E6FAD2000D6525 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56E941C423E6FAE5000D6525 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56E941C623E70080000D6525 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56E941C723E7009D000D6525 /* TransactionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		56F53CBA23E6F8F200C305B6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +121,8 @@
 		56F53CC523E6F8F200C305B6 /* Zeker */ = {
 			isa = PBXGroup;
 			children = (
+				56E941C623E70080000D6525 /* Views */,
+				56E941C323E6FAD2000D6525 /* Models */,
 				56F53CC623E6F8F200C305B6 /* AppDelegate.swift */,
 				56F53CC823E6F8F200C305B6 /* SceneDelegate.swift */,
 				56F53CCA23E6F8F200C305B6 /* ContentView.swift */,
@@ -106,6 +130,7 @@
 				56F53CD123E6F8F500C305B6 /* LaunchScreen.storyboard */,
 				56F53CD423E6F8F500C305B6 /* Info.plist */,
 				56F53CCE23E6F8F500C305B6 /* Preview Content */,
+				56E941C923E70A86000D6525 /* Color.swift */,
 			);
 			path = Zeker;
 			sourceTree = "<group>";
@@ -269,7 +294,10 @@
 			files = (
 				56F53CC723E6F8F200C305B6 /* AppDelegate.swift in Sources */,
 				56F53CC923E6F8F200C305B6 /* SceneDelegate.swift in Sources */,
+				56E941C823E7009D000D6525 /* TransactionView.swift in Sources */,
+				56E941C523E6FAE5000D6525 /* Transaction.swift in Sources */,
 				56F53CCB23E6F8F200C305B6 /* ContentView.swift in Sources */,
+				56E941CA23E70A86000D6525 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
